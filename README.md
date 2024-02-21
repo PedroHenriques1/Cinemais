@@ -1,2 +1,0 @@
-# Cinemais
-Projeto Pessoal

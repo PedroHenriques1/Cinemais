@@ -1,0 +1,76 @@
+/* main {
+    display: flex;
+    align-items: center;
+
+    width:100%;
+    max-width: 1200px;
+    opacity: 0.7;
+}
+*/
+  .gradient {
+    background-image: linear-gradient(to bottom, rgb(255, 128, 0), rgb(255, 255, 255));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+    /* Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text` */
+    color: rgb(255, 123, 0);
+}     
+  h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 0.8;
+  }
+
+  .gradient2 { 
+    background-image: linear-gradient(to bottom, rgb(48, 48, 48), rgb(255, 255, 255));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-background-clip: transparent;
+
+    color: rgba(169, 163, 151, 0.317);
+    /*text-shadow: #ffffff -1px 1px;
+  /* Não relacionado ao degradê, apenas para melhorar a visualização */
+  }
+  h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    line-height: 1.1
+  }
+
+  main {
+    flex: 1 ;
+    display: flex;
+    align-items: center;
+    padding-right: 950px;
+
+    width:100%;
+    max-width: 1440px;
+  }
+ .main_info p {
+    font-size: 19px;
+    margin: 20px 0 28px;
+ }
+ .main_info div {
+    display: flex;
+    column-gap: 32px;
+ }
+ .main_info div a, .main_info div button { 
+  width: 100%;
+  padding: 420px, 0;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0,3px;
+
+  transform: skew(-15deg);
+}
+  .main_info div a {
+    background: var(--orange);
+  }
+  .main_info div button {
+    background: transparent;
+    border: 1px solid var(--orange)
+  }
